@@ -1,0 +1,39 @@
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    padding-top: 50px; 
+    transition: left 0.3s ease; 
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.side-menu ul li a:hover {
+    color:chocolate;
+}
+.menu-container:hover .side-menu {
+    left: 0;
+}
+.menu-trigger{
+    display:flex;
+   
+    font-size: 16px;
+    color: #333;
+}
